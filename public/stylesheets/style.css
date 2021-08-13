@@ -1,3 +1,7 @@
+body{
+    background-color: rgba(244, 248, 244, 0.877);
+}
+
 .header{
 	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1576589497175-ce3d0453ea46?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1045&q=80');
     background-size: cover;
@@ -24,7 +28,26 @@
     font-size: 20px;
 }
 
-/* .carousel-inner > .item > img {
-    width:640px;
-    height:360px;
-} */
+h2{
+    color: rgba(45, 133, 184, 0.822);
+}
+
+.flash{
+    border-radius: 4px;
+    width: fit-content;
+    animation: blinker 1s linear ease-in-out;
+}
+
+@keyframes blinker {
+    50%{
+        opacity: 0;
+    }
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.container .footer{
+    background-color: rgb(211, 206, 206);
+}

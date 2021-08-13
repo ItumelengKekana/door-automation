@@ -16,5 +16,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 
 app.listen(port, () =>{
-    console.log('Server up!')
+    console.log(`Server up on ${port}!`)
 })
